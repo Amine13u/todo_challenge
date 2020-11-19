@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(221, 237, 243);
+}
+
+.Add-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 0 150px
+}
+
+.buttons {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Done {
+  text-decoration: line-through;
+}
